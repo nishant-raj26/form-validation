@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+element.style {
+}
+.flex-container {
+  height: 146px;
+  width: 151px;
+  display: flex;
+  justify-content: space-between;
+  background-color: slategrey;
+  align-items: center;
+}
+
+.item1 {
+  display: flex;
+  align-self: flex-start;
+}
+
+.item2 {
+  display: flex;
+  align-self: center;
+}
+.item3 {
+  display: flex;
+  align-self: flex-end;
+}
